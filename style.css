@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+ color: orange;   
+}
+.flexible{
+    display: flex;
+    margin: 20px;
+
+}
+.half{
+    width: 50%;
+    padding-left: 5%;
+}
+.half img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(orange, tomato);
+   color: white;
+   font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.Dream-Big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    width: 50%;
+    box-shadow: 10px 10px 10px yellowgreen;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+   
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#Full-stack{
+    border-left: 7px solid rebeccapurple;
+
+}
+#baby-web{
+    border-left: 7px solid rgb(51, 54, 47);
+}
+footer{
+    text-align: center;
+}
